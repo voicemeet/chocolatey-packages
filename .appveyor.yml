@@ -16,39 +16,42 @@ environment:
   # Force test: use 1 to test all, or N to split testing into N groups
   au_test_groups: 1
 
-  # Github token to commit pushed packages to repository
-  github_user_repo: {github_user}/{repository}
-  github_api_key:
-    secure: YOUR_GITHUB_API_KEY_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+  # GitHub releases
+  VM_RELEASE_TOKEN:
+    secure: OrV8sBUF3drDVJsllYml4eWrZUTOqBoK7Bs/yk/6LT0bsOJ9/W1nllJQpyGkcnonN/mRZevdrDhJsI9p4sYvsJWmJkJgeIBWQLz5fw3kH3dGaecRKZ2lSGuvSbPP7wzn # https://ci.appveyor.com/tools/encrypt
 
+  # Github token to commit pushed packages to repository
+  github_user_repo: VoiceMeet/chocolatey-packages
+  github_api_key:
+    secure: dY2fUH/wE/TRLFv0pOpEUjvFsw/1xSaQuXREn7l6Je9swYgqJ6kA/Sw78WDsDxT4 # https://ci.appveyor.com/tools/encrypt
 
   # Mail credentials - for error notifications
   mail_user:
-    secure: YOUR_EMAIL_ACCOUNT_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
-  mail_pass:
-    secure: YOUR_EMAIL_PASSWORD_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
-  mail_server: smtp.gmail.com
-  mail_port: 587
+    secure: 9ezq0373BNdInG8KOYNHU/9Z4vwomu6flzhHDZQ7/QQ= # https://ci.appveyor.com/tools/encrypt
+#  mail_pass:
+#    secure: YOUR_EMAIL_PASSWORD_HERE_ENCRYPTED_STRING # https://ci.appveyor.com/tools/encrypt
+#  mail_server: smtp.sendgrid.net
+#  mail_port: 465
   mail_enablessl: true
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist
-  gist_id:
+  gist_id: 7f631dae49bb1b86ccf18dd838738b12
 
   # Force test: gist id for test results
-  gist_id_test:
+  gist_id_test: 7fc1421ce1efc42132cec92c3e4f8794
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: YOUR_CHOCO_API_KEY_HERE_ENCRYPTED_STRING # https://ci.appveyor.com/tools/encrypt
+    secure: 3HL0ADelr9OmnVMdGQ5V6DPQ3poQ6CI+X19cnu6zXeM6f7eaiL0IATEgPPuHTHhk # https://ci.appveyor.com/tools/encrypt
 
   #Chocolatey version we want to use when checking for updates (usually latest).
   choco_version: '2.2.2'
   nupkg_cache_path: C:\packages
 
 init:
-- git config --global user.email "chocolatey@realdimensions.net"
-- git config --global user.name "Chocolatey-AU"
+- git config --global user.email "kjxbyz888@outlook.com"
+- git config --global user.name "kjxbyz"
 - git config --global core.safecrlf false
 
 install:
