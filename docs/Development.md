@@ -6,10 +6,17 @@
 choco install au
 ```
 
+## Upgrade
+
+```powershell
+cd .\automatic\voicemeet
+.\update.ps1
+```
+
 # Build
 
 ```powershell
-choco pack .\manual\voicemeet\voicemeet.nuspec
+choco pack .\automatic\voicemeet\voicemeet.nuspec
 ```
 
 # Local Install
