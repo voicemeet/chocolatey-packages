@@ -35,7 +35,7 @@ function global:au_SearchReplace {
 
         "voicemeet.nuspec" = @{
             "(\<version\>).*?(\</version\>)"           = "`${1}$($Latest.Version)`$2"
-            "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`${1}$($Latest.ReleaseNotes)`$2"
+#            "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`${1}$($Latest.ReleaseNotes)`$2"
         }
     }
 }

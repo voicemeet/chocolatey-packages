@@ -51,10 +51,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <bugTrackerUrl>https://voicemeet.io/support</bugTrackerUrl>
     <tags>voicemeet</tags>
     <summary>VoiceMeet — Meet the World through Voice.</summary>
-    <description><![CDATA[# VoiceMeet
-
-> *Meet the World through Voice.*
->
+    <description><![CDATA[# VoiceMeet - Meet the World through Voice
 
 ## 🌐 Overview
 
@@ -74,7 +71,7 @@ Whether you're making new friends, exploring topics of interest, or discovering 
 **Join now and start your voice journey!**
 
 ]]></description>
-    <releaseNotes>https://github.com/VoiceMeet/voicemeet/blob/main/CHANGELOG.md</releaseNotes>
+    <releaseNotes>https://voicemeet.io/changelog</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
