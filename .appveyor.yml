@@ -43,7 +43,7 @@ environment:
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: 3HL0ADelr9OmnVMdGQ5V6DPQ3poQ6CI+X19cnu6zXeM6f7eaiL0IATEgPPuHTHhk # https://ci.appveyor.com/tools/encrypt
+    secure: mo15LoZPN8Knd7PiDrkClGYC92/iyksI+rH/y8nTbQvTCHlXbe+SbVvDZwYRoJQM # https://ci.appveyor.com/tools/encrypt
 
   #Chocolatey version we want to use when checking for updates (usually latest).
   choco_version: '2.2.2'
