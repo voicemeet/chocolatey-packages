@@ -50,7 +50,7 @@ environment:
   nupkg_cache_path: C:\packages
 
 init:
-- git config --global user.email "kjxbyz888@outlook.com"
+- git config --global user.email "47768002+kjxbyz@users.noreply.github.com"
 - git config --global user.name "kjxbyz"
 - git config --global core.safecrlf false
 
