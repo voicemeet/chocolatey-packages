@@ -1,6 +1,6 @@
 
 $ErrorActionPreference = 'Stop'
-$url64      = 'https://github.com/VoiceMeet/releases/releases/download/v0.0.1%2B2.pre/voicemeet-0.0.1.2.pre-windows-setup-x64.exe'
+$url64      = 'https://github.com/voicemeet/releases/releases/download/v0.0.2/voicemeet-0.0.2-windows-setup-x64.exe'
 
 $arch = Get-OSArchitectureWidth -Compare 64
 
@@ -16,7 +16,7 @@ $packageArgs = @{
 
   softwareName  = 'voicemeet*'
 
-  checksum64    = '79b1ac71d8816907d18109ab6250b1832e4acf73a260c42705fc50c3801fc186'
+  checksum64    = '7b96becc28bee5e705dd30889b9be35f1918cdc2c8e51e918ee89923a014da9e'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
