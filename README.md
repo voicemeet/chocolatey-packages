@@ -1,5 +1,6 @@
 # Chocolatey Packages [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/VoiceMeet/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/kjxbyz/vm-chocolatey-packages)
 
+[![Publish](https://github.com/voicemeet/chocolatey-packages/actions/workflows/publish.yml/badge.svg)](https://github.com/voicemeet/chocolatey-packages/actions/workflows/publish.yml)
 [Update status](https://gist.github.com/kjxbyz/7f631dae49bb1b86ccf18dd838738b12)
 [Packages are reviewed in queue](https://ch0.co/moderation)
 
