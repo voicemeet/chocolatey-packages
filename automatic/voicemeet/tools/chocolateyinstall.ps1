@@ -1,6 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop'
-$url64      = 'https://github.com/voicemeet/releases/releases/download/v0.0.3/voicemeet-0.0.3-windows-setup-x64.exe'
+$url64      = 'https://github.com/voicemeet/releases/releases/download/v0.0.3/VoiceMeetSetup-0.0.3-x64.exe'
 
 $arch = Get-OSArchitectureWidth -Compare 64
 
