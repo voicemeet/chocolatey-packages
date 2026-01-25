@@ -37,18 +37,18 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <title>VoiceMeet</title>
     <authors>kjxbyz</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://voicemeet.io</projectUrl>
+    <projectUrl>https://voicemeet.net</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <!-- Here is an example using Githack -->
     <iconUrl>https://raw.githubusercontent.com/voicemeet/chocolatey-packages/master/icons/voicemeet.png</iconUrl>
     <copyright>Copyright © 2025 VoiceMeet. All rights reserved.</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
-    <licenseUrl>https://voicemeet.io/license</licenseUrl>
+    <licenseUrl>https://voicemeet.net/license</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>https://github.com/voicemeet/voicemeet</projectSourceUrl>-->
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
-    <bugTrackerUrl>https://voicemeet.io/support</bugTrackerUrl>
+    <bugTrackerUrl>https://voicemeet.net/support</bugTrackerUrl>
     <tags>voicemeet</tags>
     <summary>VoiceMeet — Meet the World through Voice.</summary>
     <description><![CDATA[# VoiceMeet - Meet the World through Voice
@@ -71,7 +71,7 @@ Whether you're making new friends, exploring topics of interest, or discovering 
 **Join now and start your voice journey!**
 
 ]]></description>
-    <releaseNotes>https://voicemeet.io/changelog</releaseNotes>
+    <releaseNotes>https://voicemeet.net/changelog</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
