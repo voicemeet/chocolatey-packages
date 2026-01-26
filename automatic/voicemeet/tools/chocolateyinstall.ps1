@@ -16,7 +16,7 @@ $packageArgs = @{
 
   softwareName  = 'voicemeet*'
 
-  checksum64    = 'cfaf802e96c6a666d46fc175ffa527c4ccc5c9ed543d57e24a376ba9bf5c6a89'
+  checksum64    = '61d5a714944bb07dc88b45353885c41155d3b8ca29f8969468b6328a383801b7'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
