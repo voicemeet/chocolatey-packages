@@ -23,7 +23,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: VoiceMeet/chocolatey-packages
   github_api_key:
-    secure: dY2fUH/wE/TRLFv0pOpEUjvFsw/1xSaQuXREn7l6Je9swYgqJ6kA/Sw78WDsDxT4 # https://ci.appveyor.com/tools/encrypt
+    secure: Qfh6onpRPItja2LPXj3q/PyY+u/LZrNNoY/bOhDAaX4RRVeZpTsF2BzgEjBFjMNE # https://ci.appveyor.com/tools/encrypt
 
   # Mail credentials - for error notifications
   mail_user:
