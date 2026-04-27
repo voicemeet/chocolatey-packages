@@ -18,10 +18,10 @@ environment:
 
   # GitHub releases
   VM_RELEASE_TOKEN:
-    secure: OrV8sBUF3drDVJsllYml4eWrZUTOqBoK7Bs/yk/6LT0bsOJ9/W1nllJQpyGkcnonN/mRZevdrDhJsI9p4sYvsJWmJkJgeIBWQLz5fw3kH3dGaecRKZ2lSGuvSbPP7wzn # https://ci.appveyor.com/tools/encrypt
+    secure: OrV8sBUF3drDVJsllYml4ZJX1yf9pFEQRA3uiTIiQt4HIuTHL4KFGlUiqt7dF21IIvtgdG3djf6WtPv2WvgoSrEiMUsIsihfQkngnybVIC5PdGPj1vw3sSjp5QxdJVtF # https://ci.appveyor.com/tools/encrypt
 
   # Github token to commit pushed packages to repository
-  github_user_repo: VoiceMeet/chocolatey-packages
+  github_user_repo: voicemeet/chocolatey-packages
   github_api_key:
     secure: Qfh6onpRPItja2LPXj3q/PyY+u/LZrNNoY/bOhDAaX4RRVeZpTsF2BzgEjBFjMNE # https://ci.appveyor.com/tools/encrypt
 
