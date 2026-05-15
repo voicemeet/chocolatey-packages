@@ -8,7 +8,7 @@ $headers = @{
 }
 
 function global:au_GetLatest {
-    $LatestRelease = Invoke-RestMethod -UseBasicParsing -Uri "https://api.github.com/repos/voicemeet/releases/releases/latest" -Headers $headers
+    $LatestRelease = Invoke-RestMethod -UseBasicParsing -Uri "https://api.github.com/repos/voicemeet/app/releases/latest" -Headers $headers
     $LatestVersion = $LatestRelease.tag_name.Replace('v', '').Replace('+', '.')
     $LatestURL64 = ($LatestRelease.assets | Where-Object {$_.name.EndsWith("-windows-setup-x64.exe")}).browser_download_url
 
