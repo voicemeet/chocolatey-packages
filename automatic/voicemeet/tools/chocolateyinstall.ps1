@@ -10,7 +10,7 @@ $osIs64  = [Environment]::Is64BitOperatingSystem
 $onArm64 = ($env:PROCESSOR_ARCHITECTURE -eq 'ARM64' -or $env:PROCESSOR_ARCHITEW6432 -eq 'ARM64')
 
 if (($env:ChocolateyForceX86 -eq 'true')) {
-    throw "No 32-bit installer is published for version $version (force-x86 set)."
+    throw "No 32-bit installer is published (force-x86 set)."
 } elseif ($onArm64) {
     $selectedUrl64      = $urlArm64
     $selectedChecksum64 = $checksumArm64
@@ -18,7 +18,7 @@ if (($env:ChocolateyForceX86 -eq 'true')) {
     $selectedUrl64      = $url64
     $selectedChecksum64 = $checksum64
 } else {
-    throw "No 32-bit installer is published for version $version."
+    throw "No 32-bit installer is published."
 }
 
 if (-not $selectedChecksum64 -or ($selectedChecksum64 -notmatch '^[0-9A-Fa-f]{64}$')) {
